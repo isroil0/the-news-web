@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__menu {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.menu__item a {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: black;
+}
+
+.menu__item1 a {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: red;
+}
+
+.container2 {
+    height: 128px;
+    width: 1400px;
+    left: 0px;
+    top: 1481px;
+    border-radius: 0px;
+    margin: 0 auto;
+    background: #3A3838;
+    padding: 0 15px;
+
+}
+
+.menu__item2 a {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: white;
+    align-content: center;
+
+}
+
+.nav__logo1 img {
+    margin-top: 30px;
+
+}
+
+.content {
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+
+    margin: 0 auto;
+    display: flex;
+
+}
+
+
+
+.h3 {
+    color: white;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+.p1 {
+    color: #EBEBEB;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+
+
+}
+
+.child1 {
+    height: 380px;
+    width: 350px;
+    border-radius: 0px;
+    background: #00695C;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.red {
+    background: #B71C1C;
+}
+
+.purple {
+    background: #6A1B9A;
+}
+
+.mini {
+    background: #303F9F;
+
+}
+
+.zagolovok {
+
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+    padding: 0 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.phone {
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+    background: #EDEDED;
+    margin: 0 auto;
+    display: flex;
+}
+
+.huawei {
+    margin-left: 130px;
+}
+
+.joke {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 145px;
+}
+
+.me {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 31px;
+    margin-right: 145px;
+    color: #686868;
+
+}
+
+.menu__item a:hover {
+    color: blue;
+    transition: 0.5s;
+}
+.menu__item1 a:hover{
+    color: blue;
+    transition: 0.5s;
+}
